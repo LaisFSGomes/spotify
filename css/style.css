@@ -1,6 +1,22 @@
+/* tipografia */
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+html,
+body,
+#main {
+    height: 100%;
+}
+
 body {
     background: url(../assets/capa.png), url(../assets/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
     background-attachment: fixed;
+    font-family: Helverica, Helvetica, Arial, sans-serif;
 }
 
 
@@ -28,4 +44,84 @@ nav#nav-transparente {
     width: 1px;
     background: white;
     margin: 12px 15px;
+}
+
+
+/* HOME */
+
+#musica-todos-id {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: 0.4s all;
+    padding: 10px 20px;
+}
+
+#btn-roxo {
+    background: #7c25f8;
+}
+
+#btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+#btn-branco {
+    border: 2px solid white;
+}
+
+#btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
 }
