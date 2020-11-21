@@ -22,11 +22,6 @@ body {
 
 /* barra de navegação */
 
-nav#nav-transparente {
-    padding: 15px 0px;
-    background: rgb(0, 0, 0, 0.6);
-}
-
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
@@ -85,8 +80,17 @@ nav#nav-transparente {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
+    nav#nav-transparente {
+        background: rgb(0, 0, 0, 0.6);
+    }
+    #musica-todos-id {
+        margin-top: 5em;
+    }
     h1 {
         font-size: 2em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
     }
 }
 
@@ -94,8 +98,17 @@ nav#nav-transparente {
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    nav#nav-transparente {
+        background: rgb(0, 0, 0, 0.6);
+    }
     h1 {
         font-size: 3em;
+    }
+    .btn-custom {
+        margin: 10px 15px;
+    }
+    .btn-custom+.btn-custom {
+        margin-top: 10px;
     }
 }
 
@@ -103,6 +116,10 @@ nav#nav-transparente {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    nav#nav-transparente {
+        padding: 10px 0px;
+        background: rgb(0, 0, 0, 0.6);
+    }
     h1 {
         font-size: 4em;
     }
@@ -112,6 +129,10 @@ nav#nav-transparente {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    nav#nav-transparente {
+        padding: 15px 0px;
+        background: rgb(0, 0, 0, 0.6);
+    }
     h1 {
         font-size: 5em;
     }
@@ -121,6 +142,10 @@ nav#nav-transparente {
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
+    nav#nav-transparente {
+        padding: 15px 0px;
+        background: rgb(0, 0, 0, 0.6);
+    }
     h1 {
         font-size: 6em;
     }
