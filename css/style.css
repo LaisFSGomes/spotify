@@ -7,9 +7,21 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    font-size: 3em;
+}
+
+h3 {
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    font-size: 2em;
+}
+
 html,
 body,
-#main {
+#home1 {
     height: 100%;
 }
 
@@ -42,7 +54,7 @@ body {
 }
 
 
-/* HOME */
+/* HOME 1 */
 
 #musica-todos-id {
     text-align: center;
@@ -75,6 +87,27 @@ body {
     background-color: white;
     color: black;
 }
+
+
+/* HOME 2 */
+
+#home2 {
+    background: white;
+    padding: 20px 0px;
+}
+
+.albuns {
+    padding: 10px 0px;
+}
+
+#home,
+h2,
+h3 {
+    color: #7c25f8;
+}
+
+
+/* ---------------------------------------- Media ---------------------------------------- */
 
 
 /* Extra small devices (portrait phones, less than 576px) */
