@@ -23,6 +23,7 @@ html,
 body,
 #home1 {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -52,6 +53,9 @@ body {
     background: white;
     margin: 12px 15px;
 }
+
+
+/* ---------------------------------------- Home ---------------------------------------- */
 
 
 /* HOME 1 */
@@ -100,10 +104,32 @@ body {
     padding: 10px 0px;
 }
 
-#home,
-h2,
-h3 {
+#home2 h2,
+#home2 h3 {
     color: #7c25f8;
+}
+
+
+/* HOME 3 */
+
+#home3 {
+    padding: 20px 0px;
+}
+
+#home3 h3 {
+    color: #2bf0e1;
+}
+
+#home3 h2,
+#home3 p {
+    color: white;
+}
+
+#phones {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 
