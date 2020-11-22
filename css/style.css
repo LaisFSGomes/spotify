@@ -180,10 +180,17 @@ footer ul li {
         margin-top: 5em;
     }
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
     .btn-custom {
         margin: 10px 15px;
+    }
+    #logo-rodape {
+        padding-bottom: 3em;
+        width: 150px;
+    }
+    #social-medias {
+        padding: 30px 0px;
     }
 }
 
@@ -203,6 +210,10 @@ footer ul li {
     .btn-custom+.btn-custom {
         margin-top: 10px;
     }
+    #logo-rodape {
+        padding-bottom: 3em;
+        width: 150px;
+    }
 }
 
 
@@ -214,7 +225,13 @@ footer ul li {
         background: rgb(0, 0, 0, 0.6);
     }
     h1 {
-        font-size: 4em;
+        font-size: 5em;
+    }
+    #logo-rodape {
+        width: 110px;
+    }
+    .btn-custom {
+        font-size: 20px;
     }
 }
 
@@ -229,6 +246,9 @@ footer ul li {
     h1 {
         font-size: 5em;
     }
+    #logo-rodape {
+        width: 150px;
+    }
 }
 
 
@@ -241,5 +261,8 @@ footer ul li {
     }
     h1 {
         font-size: 6em;
+    }
+    #logo-rodape {
+        width: 170px;
     }
 }
