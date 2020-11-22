@@ -233,6 +233,9 @@ footer ul li {
     .btn-custom {
         font-size: 20px;
     }
+    #social-medias ul li a img {
+        width: 40px;
+    }
 }
 
 
